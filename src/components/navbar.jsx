@@ -11,10 +11,10 @@ function Navbar() {
             <img
                 src="src/assets/youtubelogo.png"
                 alt="YouTube Logo"
-                className="h-8 mx-4" // Adjust the margin as needed
+                className="h-8 mx-4" 
             />
             
-            {/* Remaining Items on the Right */}
+
             <ul className="flex gap-10 text-sm">
                 <li>Home</li>
                 <li>Product</li>
