@@ -3,18 +3,17 @@ import { IoMenu ,IoSearch } from "react-icons/io5";
 function Navbar() {
     return (
         <div className="bg-black text-white py-3 flex items-center px-4">
-            {/* Menu Icon on the Extreme Left */}
+         
             <div className="flex items-center mr-4 ml-3">
-                <IoMenu size="24px" color="white"  />
-             
-            </div>
-            
+  <IoMenu size="24px" color="white" />
+</div>
 
-            <img
-                src="src/assets/youtubeback-removebg-preview.png"
-                alt="YouTube Logo"
-                className="h-9 mx-4 ml-5" 
-            />
+<img
+  src="src/assets/youtubeback-removebg-preview.png"
+  alt="YouTube Logo"
+  className="h-20 mx-4 ml-5" 
+/>
+
      
             <div className="flex items-center flex-grow ml-auto rounded-full bg-black h-8 w-20">
             <div className="flex items-center ml-auto rounded-full bg-black border border-gray-300 h-8">
