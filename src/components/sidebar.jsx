@@ -9,9 +9,7 @@ import { HiDownload } from "react-icons/hi";
 function SideBar() {
     return (
         <div className="flex bg-black text-gray-900">
-            
-               
-                <aside className="flex h-screen w-20 flex-col items-center border-r border-black bg-black">
+              <aside className="flex h-screen w-20 flex-col items-center border-r border-black bg-black">
                 <div className="flex flex-col items-center h-[4.5rem] w-full justify-center">
                     <GoHome size="20px" color="white"/>
                     <span className="text-white mt-1 text-xs">Home</span>
