@@ -13,8 +13,6 @@ function Navbar() {
   alt="YouTube Logo"
   className="h-20 mx-4 ml-5" 
 />
-
-     
             <div className="flex items-center flex-grow ml-auto rounded-full bg-black h-8 w-20">
             <div className="flex items-center ml-auto rounded-full bg-black border border-gray-300 h-8">
                 <div className="text-white items-center justify-center flex-grow flex bg-slate-300 mt-3 mb-3 rounded-full mx-auto" style={{ width: '520px' }}>
