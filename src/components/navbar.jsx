@@ -1,5 +1,5 @@
 import { IoMenu, IoSearch } from "react-icons/io5";
-
+import { RiVideoAddLine } from "react-icons/ri";
 function Navbar() {
   return (
     <div className="bg-black text-white py-3 flex items-center px-4">
@@ -63,16 +63,16 @@ function Navbar() {
 
         <button
   type="button"
-  className="p-2.5 bg-transparent text-gray-400 rounded-full hover:bg-gray-700"
->
-  <svg
-    className="w-6 h-6 text-white"
-    xmlns="http://www.w3.org/2000/svg"
-    fill="currentColor"
-    viewBox="0 0 24 24"
-  >
-    <path d="M15 10L21 6V18L15 14V17C15 18.1046 14.1046 19 13 19H5C3.89543 19 3 18.1046 3 17V7C3 5.89543 3.89543 5 5 5H13C14.1046 5 15 5.89543 15 7V10ZM19 8.23608L15.7071 10.5H15V7.5H15.7071L19 5.76392V8.23608ZM5 7V17H13V7H5Z" />
-  </svg>
+  className="p-2.5 bg-transparent text-gray-400 rounded-full"
+> <svg
+            className="h-8 w-8 mt-3 text-white stroke-2"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            stroke="currentColor"
+            aria-hidden="true"
+          >
+<RiVideoAddLine /></svg>
 </button>
 
       </div>
