@@ -10,7 +10,7 @@ function Navbar() {
 
  
       <img
-        src="src/assets/youtubeback-removebg-preview.png"
+        src="src/assets/new-youtube-premium-features-1280-6d58ec9cf9__1_-removebg-preview.png"
         alt="YouTube Logo"
         className="h-16 w-auto mx-4 ml-2 object-contain" 
       />
