@@ -3,43 +3,50 @@ import { IoMenu, IoSearch } from "react-icons/io5";
 function Navbar() {
   return (
     <div className="bg-black text-white py-3 flex items-center px-4">
-     
+      {/* Menu Icon */}
       <div className="flex items-center mr-4 ml-3">
         <IoMenu size="24px" color="white" />
       </div>
 
-      
+      {/* Responsive Image */}
       <img
         src="src/assets/youtubeback-removebg-preview.png"
         alt="YouTube Logo"
-        className="h-12 w-auto mx-4 ml-2 object-contain" 
+        className="h-16 w-auto mx-4 ml-2 object-contain" 
       />
 
-
-      <div className="flex items-center flex-grow ml-auto h-8 w-full max-w-lg">
-        <div className="flex items-center w-full bg-black border border-gray-300 h-8 rounded-full overflow-hidden">
-      
+      {/* Search Bar */}
+      <div className="flex items-center flex-grow ml-auto max-w-2xl">
+        <div className="flex items-center w-full bg-black border border-youtubeGray h-10 rounded-l-full overflow-hidden">
+          
+          {/* Search Icon */}
           <div className="relative flex items-center w-full">
-            <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-              <IoSearch className="w-4 h-4 text-white" />
-            </div>
-
-      
             <input
               type="text"
-              className="block w-full bg-black text-white border-0 py-1.5 pl-10 placeholder:text-white focus:ring-2 focus:ring-inset focus:ring-indigo-600 rounded-full sm:text-sm"
+              className="block w-full bg-black text-white border-0 pl-4 py-2 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 rounded-l-full sm:text-sm"
               placeholder="Search"
             />
           </div>
         </div>
 
+        {/* Search Button */}
+        <button
+          type="button"
+          className="flex items-center justify-center w-16 h-10 bg-youtubeGray rounded-r-full hover:bg-gray-600 mr-4 sm:mr-8 md:mr-16 lg:mr-56"
+
+        >
+          <IoSearch className="w-6 h-6 text-white" />
+        </button>
+      </div>
+
+      {/* Buttons */}
+      <div className="flex items-center space-x-4 ml-4">
         <button
           type="button"
           className="p-2.5 text-gray-400 hover:text-gray-500"
         >
-          <span className="sr-only">View notifications</span>
           <svg
-            className="h-5 w-5 text-white stroke-2"
+            className="h-6 w-6 text-white stroke-2"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth="1.5"
@@ -55,25 +62,19 @@ function Navbar() {
         </button>
 
         <button
-          type="button"
-          className="p-2.5 text-gray-400 hover:text-gray-500"
-        >
-          <span className="sr-only">View notifications</span>
-          <svg
-            className="w-5 h-5 text-white stroke-2"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"
-            />
-          </svg>
-        </button>
+  type="button"
+  className="p-2.5 bg-transparent text-gray-400 rounded-full hover:bg-gray-700"
+>
+  <svg
+    className="w-6 h-6 text-white"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path d="M15 10L21 6V18L15 14V17C15 18.1046 14.1046 19 13 19H5C3.89543 19 3 18.1046 3 17V7C3 5.89543 3.89543 5 5 5H13C14.1046 5 15 5.89543 15 7V10ZM19 8.23608L15.7071 10.5H15V7.5H15.7071L19 5.76392V8.23608ZM5 7V17H13V7H5Z" />
+  </svg>
+</button>
+
       </div>
     </div>
   );

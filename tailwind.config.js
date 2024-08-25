@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        youtubeGray: '#333333', // Add a custom color called 'youtubeGray'
+      },
+    },
   },
   plugins: [],
 }
