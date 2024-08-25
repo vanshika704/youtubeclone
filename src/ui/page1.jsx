@@ -4,7 +4,7 @@ import SideBar from "../components/sidebar";
 import "../index.css";
 function MainPage (){
     return(<><Navbar/>
-    <SideBar/>
-    </>)
+            <SideBar/>
+            </>)
 }
 export default MainPage;
