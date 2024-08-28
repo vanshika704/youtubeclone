@@ -1,7 +1,7 @@
 function Videos() {
     return (
       <div className="bg-black p-4">
-        {/* Single Grid Container with Dynamic Rows and Columns */}
+       
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {Array.from({ length: 6 }).map((_, index) => (
             <div key={index} className="relative group">
