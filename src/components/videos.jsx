@@ -17,7 +17,7 @@ function Videos() {
                   Your browser does not support the video tag.
                 </video>
                 <div className="mt-2 px-4 py-2">
-                  <h3 className="text-sm font-semibold text-gray-900">Bunny  {index + 1}</h3>
+                  <h3 className="text-sm font-semibold text-gray-200">Bunny  {index + 1}</h3>
                   <p className="text-xs text-gray-500">Bunny Catches the butterfly</p>
                 </div>
               </a>
