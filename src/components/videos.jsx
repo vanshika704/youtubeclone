@@ -30,7 +30,16 @@ function Videos() {
   
   export default Videos;
   
+  // const fetchVideos = async () => {
+  //   const response = await fetch('http://localhost:4000/videos/popular'); // Proxy server URL
   
+  //   if (!response.ok) {
+  //     throw new Error('Network response was not ok');
+  //   }
+  
+  //   const data = await response.json();
+  //   return data;
+  // };
 // Adjust the import path if necessary
 
 // import { usePexelsVideos } from "../services/tanstack";
