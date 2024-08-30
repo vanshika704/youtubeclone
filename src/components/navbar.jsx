@@ -1,10 +1,10 @@
-import PropTypes from 'prop-types';
 import { IoMenu, IoSearch } from "react-icons/io5";
 import { RiVideoAddLine } from "react-icons/ri";
 
-const Navbar = ({ query, setQuery, handleSearch }) => {
+function Navbar() {
   return (
     <div className="bg-black text-white py-3 flex items-center px-4">
+    
       <div className="flex items-center mr-4 ml-3">
         <IoMenu size="24px" color="white" />
       </div>
@@ -12,7 +12,7 @@ const Navbar = ({ query, setQuery, handleSearch }) => {
       <img
         src="src/assets/new-youtube-premium-features-1280-6d58ec9cf9__1_-removebg-preview.png"
         alt="YouTube Logo"
-        className="h-16 w-auto mx-4 ml-2 object-contain"
+        className="h-16 w-auto mx-4 ml-2 object-contain" 
       />
 
       <div className="flex items-center flex-grow ml-auto max-w-2xl">
@@ -20,24 +20,21 @@ const Navbar = ({ query, setQuery, handleSearch }) => {
           <div className="relative flex items-center w-full">
             <input
               type="text"
-              className="block w-full bg-black text-white border-0 pl-4 py-2 placeholder:text-gray-400 rounded-l-full sm:text-sm"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search videos"
+              className="block w-full bg-black text-white border-0 pl-4 py-2 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 rounded-l-full sm:text-sm"
+              placeholder="Search"
             />
           </div>
         </div>
 
         <button
           type="button"
-          onClick={handleSearch}
           className="flex items-center justify-center w-16 h-10 bg-youtubeGray rounded-r-full hover:bg-gray-600 mr-4 sm:mr-8 md:mr-16 lg:mr-56"
         >
           <IoSearch className="w-6 h-6 text-white" />
         </button>
       </div>
 
-      {/* Additional Navbar buttons */}
+      {/* Buttons */}
       <div className="flex items-center space-x-4 ml-4">
         <button
           type="button"
@@ -79,13 +76,6 @@ const Navbar = ({ query, setQuery, handleSearch }) => {
       </div>
     </div>
   );
-};
-
-// Add prop types validation
-Navbar.propTypes = {
-  query: PropTypes.string.isRequired,
-  setQuery: PropTypes.func.isRequired,
-  handleSearch: PropTypes.func.isRequired,
-};
+}
 
 export default Navbar;

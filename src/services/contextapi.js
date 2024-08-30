@@ -1,5 +1,5 @@
 // src/YouTubeSearch.js
-import { useState , useEffect } from 'react';
+import { useState } from 'react';
 import Navbar from './Navbar';
 import Videos from './Videos';
 import { fetchVideos } from '../services/fetchvideos';
@@ -13,21 +13,14 @@ const YouTubeSearch = () => {
     const fetchedVideos = await fetchVideos(query);
     setVideos(fetchedVideos);
   };
-  const fetchRandomVideos = async () => {
-    const randomQuery = 'random videos'; // or any default keyword for random videos
-    const fetchedVideos = await fetchVideos(randomQuery);
-    setVideos(fetchedVideos || []);
-  };
-  useEffect(() => {
-    fetchRandomVideos();
-  }, []);
-
+  
 
   return (
     <div className="bg-black min-h-screen">
-    <Navbar query={query} setQuery={setQuery} handleSearch={handleSearch} />
-    <Videos videos={videos} />
-  </div>
+      {/* Pass props to Navbar */}
+      <Navbar query={query} setQuery={setQuery} handleSearch={handleSearch} />
+      <Videos videos={videos} />
+    </div>
   );
 };
 
