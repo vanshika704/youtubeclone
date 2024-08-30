@@ -1,8 +1,8 @@
 // src/youtubeService.js
 import axios from 'axios';
 
-const API_KEY = 'AIzaSyDrSGzlL2KiIeqyaGxzwKk-soT-vUmOUVA';
-const BASE_URL = 'https://www.googleapis.com/youtube/v3';
+const API_KEY = '0QmEmPXm8p4oTFNIVTaw1UJ6Fw1YRNhltsgBW3qpZKHV0mwMgEspJzFA';
+const BASE_URL = 'https://api.pexels.com/videos/';
 
 export const fetchVideos = async (query) => {
   try {
