@@ -13,7 +13,7 @@ export const searchVideos = async (query) => {
         per_page: 10,
       },
     });
-    return response.data.hits; // Return the list of videos
+    return response.data.hits; 
   } catch (error) {
     console.error("Error fetching videos from Pixabay API", error);
     return [];
