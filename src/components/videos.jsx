@@ -3,7 +3,7 @@ function Videos() {
       <div className="bg-black p-4">
        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {Array.from({ length: 6 }).map((_, index) => (
+          {Array.from({ length: 6 }).map((_, index) => ( // considered an array of length 6 and maped it at index
             <div key={index} className="relative group">
               <a href="#" className="block rounded-lg overflow-hidden">
                 <video
