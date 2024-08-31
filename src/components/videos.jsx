@@ -52,7 +52,7 @@ function Videos() {
   };
 
   useEffect(() => {
-    fetchPixabayVideos(); // Fetch videos when the component mounts
+    fetchPixabayVideos(); 
   }, []);
 
   return (
