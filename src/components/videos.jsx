@@ -57,7 +57,7 @@ function Videos() {
 
   return (
     <div className="bg-black p-4">
-      {loading ? ( // Display loading message while fetching videos
+      {loading ? ( 
         <p className="text-white">Loading videos...</p>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">

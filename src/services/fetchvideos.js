@@ -10,7 +10,7 @@ export const searchVideos = async (query) => {
       params: {
         key: API_KEY,
         q: query,
-        per_page: 10,
+        per_page: 30,
       },
     });
     return response.data.hits; 
