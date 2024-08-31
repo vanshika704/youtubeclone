@@ -63,7 +63,7 @@ function Videos() {
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {videos.length > 0 ? (
-            videos.map((video, index) => (
+            videos.map((video, ) => (
               <div key={video.id} className="relative group">
                 <a href={video.videos.tiny.url} className="block rounded-lg overflow-hidden" target="_blank" rel="noopener noreferrer">
                   <video className="w-full h-48 sm:h-64 object-cover" controls>
@@ -71,7 +71,7 @@ function Videos() {
                     Your browser does not support the video tag.
                   </video>
                   <div className="mt-2 px-4 py-2">
-                    <h3 className="text-sm font-semibold text-gray-200">Video {index + 1}</h3>
+                    <h3 className="text-sm font-semibold text-gray-200"> {video.description}</h3>
                     <p className="text-xs text-gray-500">{video.tags}</p>
                   </div>
                 </a>
