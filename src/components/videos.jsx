@@ -37,8 +37,8 @@ import { searchVideos } from "../services/fetchvideos";
 
 
 function Videos() {
-  const [videos, setVideos] = useState([]); // State to store video data
-  const [loading, setLoading] = useState(true); // State to manage loading state
+  const [videos, setVideos] = useState([]); 
+  const [loading, setLoading] = useState(true); 
 
   // Function to fetch videos from Pixabay API
   const fetchPixabayVideos = async () => {
