@@ -40,10 +40,9 @@ function Videos() {
   const [videos, setVideos] = useState([]); 
   const [loading, setLoading] = useState(true); 
 
-  // Function to fetch videos from Pixabay API
   const fetchPixabayVideos = async () => {
     try {
-      const videoResults = await searchVideos("nature"); // Search query "nature" or any other keyword
+      const videoResults = await searchVideos("nature"); 
       setVideos(videoResults);
     } catch (error) {
       console.error("Failed to fetch videos", error);
