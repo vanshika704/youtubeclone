@@ -1,4 +1,4 @@
-// src/pixabayService.js
+
 import axios from "axios";
 
 const API_URL = "https://pixabay.com/api/videos/";
