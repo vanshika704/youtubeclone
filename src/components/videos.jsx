@@ -11,7 +11,7 @@ function Videos() {
                   controls //  controls is a function inbuilt 
                 >
                   <source
-                    src={`https://www.w3schools.com/html/mov_bbb.mp4`}
+                    src={`https://www.w3schools.com/html/mov_bbb.mp4`} // src of the videos 
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.
