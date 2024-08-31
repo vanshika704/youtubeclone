@@ -8,7 +8,7 @@ function Videos() {
               <a href="#" className="block rounded-lg overflow-hidden">
                 <video
                   className="w-full h-48 sm:h-64 object-cover"
-                  controls
+                  controls //  controls is a function inbuilt 
                 >
                   <source
                     src={`https://www.w3schools.com/html/mov_bbb.mp4`}
