@@ -47,7 +47,7 @@ function Videos() {
     } catch (error) {
       console.error("Failed to fetch videos", error);
     } finally {
-      setLoading(false); // Stop loading state after fetching videos
+      setLoading(false); 
     }
   };
 
