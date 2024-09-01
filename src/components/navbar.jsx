@@ -3,6 +3,7 @@ import { RiVideoAddLine } from "react-icons/ri";
 
 function Navbar() {
   return (
+    <div>
     <div className="bg-black text-white py-3 flex items-center px-4">
     
       <div className="flex items-center mr-4 ml-3">
@@ -74,6 +75,8 @@ function Navbar() {
           />
         </button>
       </div>
+    </div>
+   
     </div>
   );
 }
