@@ -123,94 +123,120 @@ function Videos() {
     
 
 <div>
-<div className="flex space-x-4 bg-black p-4">
+<div className="flex space-x-4 bg-black p-2">
   {/* Like Button */}
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-transparent px-3.5 py-2.5 text-sm font-semibold text-gray-400 shadow-sm hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-sm font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth="1.5"
-      stroke="currentColor"
-      className="h-6 w-6"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
-      />
-    </svg>
-    <span>Like</span>
+   
+    <span>All</span>
   </button>
 
   {/* Save Button */}
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-transparent px-3.5 py-2.5 text-sm font-semibold text-gray-400 shadow-sm hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth="1.5"
-      stroke="currentColor"
-      className="w-6 h-6"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z"
-      />
-    </svg>
-    <span>Save</span>
+   
+    <span>Music</span>
   </button>
 
   {/* Share Button */}
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-transparent px-3.5 py-2.5 text-sm font-semibold text-gray-400 shadow-sm hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className="w-6 h-6"
-    >
-      <path
-        fillRule="evenodd"
-        d="M15.75 4.5a3 3 0 1 1 .825 2.066l-8.421 4.679a3.002 3.002 0 0 1 0 1.51l8.421 4.679a3 3 0 1 1-.729 1.31l-8.421-4.678a3 3 0 1 1 0-4.132l8.421-4.679a3 3 0 0 1-.096-.755Z"
-        clipRule="evenodd"
-      />
-    </svg>
-    <span>Share</span>
+   
+    <span>Web Series</span>
   </button>
 
   {/* Download Button */}
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-transparent px-3.5 py-2.5 text-sm font-semibold text-gray-400 shadow-sm hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth="1.5"
-      stroke="currentColor"
-      className="w-6 h-6"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M9 8.25H7.5a2.25 2.25 0 0 0-2.25 2.25v9a2.25 2.25 0 0 0 2.25 2.25h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25H15M9 12l3 3m0 0 3-3m-3 3V2.25"
-      />
-    </svg>
-    <span>Download</span>
+  
+    <span>Drama</span>
+  </button>
+  <button
+    type="button"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+  >
+  
+    <span>Mr Bean</span>
+  </button>
+  <button
+    type="button"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+  >
+  
+    <span>Shin Chan</span>
+  </button>
+  <button
+    type="button"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+  >
+  
+    <span>Mixes</span>
+  </button>
+  <button
+    type="button"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+  >
+  
+    <span>Data Type</span>
+  </button>
+  <button
+    type="button"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+  >
+  
+    <span>Cleaning</span>
+  </button>
+  <button
+    type="button"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+  >
+  
+    <span>Food</span>
+  </button>
+  <button
+    type="button"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+  >
+  
+    <span>Movies</span>
+  </button>
+  <button
+    type="button"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+  >
+  
+    <span>Colony</span>
+  </button>
+  <button
+    type="button"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+  >
+  
+    <span>Dance</span>
+  </button>
+  <button
+    type="button"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+  >
+  
+    <span>Cycling</span>
+  </button>
+  <button
+    type="button"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+  >
+  
+    <span>Travelling</span>
   </button>
 </div>
-
 
 
 
