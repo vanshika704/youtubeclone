@@ -238,33 +238,7 @@ function Videos() {
   </button>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div className="bg-black p-4">
+ <div className="bg-black p-4">
       
       {loading ? ( 
         <div className="flex items-center justify-center w-full h-[100vh] text-gray-900 dark:text-gray-100 dark:bg-gray-950">
