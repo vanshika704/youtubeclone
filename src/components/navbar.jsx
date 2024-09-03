@@ -7,7 +7,10 @@ function Navbar() {
     <div className="bg-black text-white py-3 flex items-center px-4">
     
       <div className="flex items-center mr-4 ml-3">
-        <IoMenu size="24px" color="white" />
+      <button
+          type="button"
+          className="p-1 text-gray-400 hover:text-gray-500"
+        > <IoMenu size="24px" color="white" /></button>  
       </div>
 
       <img
