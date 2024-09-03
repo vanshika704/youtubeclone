@@ -28,7 +28,7 @@ function Videos() {
 
 <div>
 <div className="flex space-x-4 bg-black p-2 ml-20 mt-20">
-  {/* Like Button */}
+
   <button
     type="button"
     className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-sm font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
@@ -37,7 +37,6 @@ function Videos() {
     <span>All</span>
   </button>
 
-  {/* Save Button */}
   <button
     type="button"
     className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
@@ -46,7 +45,6 @@ function Videos() {
     <span>Music</span>
   </button>
 
-  {/* Share Button */}
   <button
     type="button"
     className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
@@ -55,7 +53,7 @@ function Videos() {
     <span>Web Series</span>
   </button>
 
-  {/* Download Button */}
+
   <button
     type="button"
     className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
