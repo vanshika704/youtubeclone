@@ -253,7 +253,7 @@ function Videos() {
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 ml-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 ml-20 ">
           {videos.length > 0 ? (
             videos.map((video) => (
               <div key={video.id} className="relative group">
