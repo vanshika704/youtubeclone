@@ -106,7 +106,7 @@ function Videos() {
   const fetchPixabayVideos = async () => {
     try {
       const videoResults = await searchVideos("nature"); 
-      console.log("Fetched Videos: ", videoResults); // Log the video data to inspect the structure
+      console.log("Fetched Videos: ", videoResults); 
       setVideos(videoResults);
     } catch (error) {
       console.error("Failed to fetch videos", error);
@@ -123,7 +123,7 @@ function Videos() {
     
 
 <div>
-<div className="flex space-x-4 bg-black p-2">
+<div className="flex space-x-4 bg-black p-2 ml-10">
   {/* Like Button */}
   <button
     type="button"
