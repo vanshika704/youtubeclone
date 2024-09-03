@@ -1,5 +1,6 @@
 import { IoMenu, IoSearch } from "react-icons/io5";
 import { RiVideoAddLine } from "react-icons/ri";
+// import ExpandedSideBar from "./expandedsidebar";
 
 function Navbar() {
   return (
@@ -10,6 +11,7 @@ function Navbar() {
       <button
           type="button"
           className="p-1 text-gray-400 hover:text-gray-500"
+          // onClick={ExpandedSideBar}
         > <IoMenu size="24px" color="white" /></button>  
       </div>
 
