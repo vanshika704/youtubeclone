@@ -264,9 +264,7 @@ function Videos() {
                   </video>
                   <div className="mt-2 px-4 py-2">
                   <p className="text-md text-gray-200 font-semibold">{video.tags || "No tags available"}</p>
-                    {/* <h3 className="text-xs font-semibold text-gray-200">
-                    {video.description || "No description available"}
-                    </h3> */}
+                  
                    
                   </div>
                 </a>
