@@ -40,7 +40,7 @@ function Navbar() {
         </button>
       </div>
 
-      {/* Buttons */}
+     
       <div className="flex items-center space-x-4 ml-4">
         <button
           type="button"
