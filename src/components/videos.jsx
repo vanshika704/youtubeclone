@@ -98,6 +98,7 @@
 // src/Videos.js
 import { useEffect, useState } from "react";
 import { searchVideos } from "../services/fetchvideos";
+import { Link } from "react-router-dom"
 
 function Videos() {
   const [videos, setVideos] = useState([]); 
@@ -253,27 +254,36 @@ function Videos() {
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 ml-20 ">
-          {videos.length > 0 ? (
-            videos.map((video) => (
-              <div key={video.id} className="relative group">
-                <a href={video.videos.tiny.url} className="block rounded-lg overflow-hidden" target="_blank" rel="noopener noreferrer">
-                  <video className="w-full h-48 sm:h-64 object-cover" controls>
-                    <source src={video.videos.tiny.url} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-                  <div className="mt-2 px-4 py-2">
-                  <p className="text-md text-gray-200 font-semibold">{video.tags || "No tags available"}</p>
-                  
-                   
-                  </div>
-                </a>
-              </div>
-            ))
-          ) : (
-            <p className="text-white">No videos found</p>
-          )}
-        </div>
+       
+
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 ml-20">
+  {videos.length > 0 ? (
+    videos.map((video) => (
+      <div key={video.id} className="relative group">
+   
+        <Link
+          to={`/videos/${video.id}`} 
+          className="block rounded-lg overflow-hidden"
+        >
+          <video className="w-full h-48 sm:h-64 object-cover" controls>
+            <source src={video.videos.tiny.url} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+          {/* Description and Tags */}
+          <div className="mt-2 px-4 py-2">
+            <p className="text-md text-gray-200 font-semibold">
+              {video.tags || "No tags available"}
+            </p>
+          </div>
+        </Link>
+      </div>
+    ))
+  ) : (
+    <p className="text-white">No videos found</p>
+  )}
+</div>
+
       )}
     </div>
 </div>
