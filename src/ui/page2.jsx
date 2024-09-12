@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import Navbar from "../components/navbar";
 
  export function VideoDetail() {
   const location = useLocation();
@@ -9,8 +10,9 @@ import { useLocation } from "react-router-dom";
   }
 
   return (
-    <div className="flex justify-center items-center h-screen bg-black">
-      <div className="max-w-3xl">
+    <div className="flex  h-screen bg-black">
+        <Navbar/>
+      <div className="max-w-3xl ml-0">
         <video className="w-full h-auto" controls>
           <source src={video.videos.tiny.url} type="video/mp4" />
           Your browser does not support the video tag.
