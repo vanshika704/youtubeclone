@@ -162,22 +162,21 @@ function Videos() {
     videos.map((video) => (
       <div key={video.id} className="relative group">
    
-        <Link
-          to={`/videos/${video.id}`} 
-          className="block rounded-lg overflow-hidden"
-        >
-          <video className="w-full h-48 sm:h-64 object-cover" controls>
-            <source src={video.videos.tiny.url} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-
-          {/* Description and Tags */}
-          <div className="mt-2 px-4 py-2">
-            <p className="text-md text-gray-200 font-semibold">
-              {video.tags || "No tags available"}
-            </p>
-          </div>
-        </Link>
+   <Link
+  to={`/videos/${video.id}`}
+  state={{ video }}  // Pass the video data to the new page
+  className="block rounded-lg overflow-hidden"
+>
+  <video className="w-full h-48 sm:h-64 object-cover" controls>
+    <source src={video.videos.tiny.url} type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div className="mt-2 px-4 py-2">
+    <p className="text-md text-gray-200 font-semibold">
+      {video.tags || "No tags available"}
+    </p>
+  </div>
+</Link>
       </div>
     ))
   ) : (
