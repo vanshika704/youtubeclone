@@ -9,8 +9,8 @@ import Videos from "./videos";
 
 function SideBar() {
     return (<div className="flex" >
-        <div className="flex bg-black text-gray-900">
-              <aside className="fixed h-screen w-20 flex-col items-center border-r border-black bg-black mt-20">
+        <div className="flex bg-youtubeGray text-gray-900">
+              <aside className="fixed h-screen w-20 flex-col items-center border-r border-black bg-youtubeGray mt-20">
                 <div className="flex flex-col items-center h-[4.5rem] w-full justify-center ">
                     <GoHome size="20px" color="white"/>
                     <span className="text-white mt-1 text-xs">Home</span>

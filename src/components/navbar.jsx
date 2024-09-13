@@ -5,7 +5,7 @@ import { RiVideoAddLine } from "react-icons/ri";
 function Navbar() {
   return (
     <div className="fixed w-screen items-center z-40 ">
-    <div className="bg-black text-white py-3 flex items-center px-4">
+    <div className="bg-youtubeGray text-white py-3 flex items-center px-4">
     
       <div className="flex items-center mr-4 ml-3">
       <button
@@ -22,11 +22,11 @@ function Navbar() {
       />
 
       <div className="flex items-center flex-grow ml-auto max-w-2xl">
-        <div className="flex items-center w-full bg-black border border-youtubeGray h-8 rounded-l-full overflow-hidden">
+        <div className="flex items-center w-full bg-youtubeGray border border-gray-200 h-8 rounded-l-full overflow-hidden">
           <div className="relative flex items-center w-full">
             <input
               type="text"
-              className="block w-full bg-black text-white border-0 pl-4 py-2 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 rounded-l-full sm:text-sm"
+              className="block w-full bg-youtubeGray text-white border-0 pl-4 py-2 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 rounded-l-full sm:text-sm"
               placeholder="Search"
             />
           </div>
@@ -34,7 +34,7 @@ function Navbar() {
 
         <button
           type="button"
-          className="flex items-center justify-center w-16 h-8 bg-youtubeGray rounded-r-full hover:bg-gray-600 mr-4 sm:mr-8 md:mr-16 lg:mr-56"
+          className="flex items-center justify-center w-16 h-8 bg-youtubeGray border-gray-200 rounded-r-full hover:bg-gray-600 mr-4 sm:mr-8 md:mr-16 lg:mr-56"
         >
           <IoSearch className="w-6 h-6 text-white" />
         </button>

@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        youtubeGray: '#333333', // Add a custom color called 'youtubeGray'
+        youtubeGray: '#1a1a1a', 
       },
     },
   },
