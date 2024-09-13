@@ -22,7 +22,7 @@ function Navbar() {
       />
 
       <div className="flex items-center flex-grow ml-auto max-w-2xl">
-        <div className="flex items-center w-full bg-youtubeGray border border-gray-200 h-8 rounded-l-full overflow-hidden">
+        <div className="flex items-center w-full bg-youtubeGray border border-gray-600 h-8 rounded-l-full overflow-hidden">
           <div className="relative flex items-center w-full">
             <input
               type="text"
@@ -34,9 +34,9 @@ function Navbar() {
 
         <button
           type="button"
-          className="flex items-center justify-center w-16 h-8 bg-youtubeGray1 border border-gray-200 rounded-r-full hover:bg-gray-600 mr-4 sm:mr-8 md:mr-16 lg:mr-56"
+          className="flex items-center justify-center w-16 h-8 bg-youtubeGray1 border border-gray-600 rounded-r-full hover:bg-gray-600 mr-4 sm:mr-8 md:mr-16 lg:mr-56"
         >
-          <IoSearch className="w-6 h-6 text-white border-gray-200" />
+          <IoSearch className="w-6 h-6 text-white border-gray-600" />
         </button>
       </div>
 
