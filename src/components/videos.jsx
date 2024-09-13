@@ -27,11 +27,11 @@ function Videos() {
     
 
 <div>
-<div className="flex space-x-4 bg-black p-2 ml-20 mt-20">
+<div className="flex space-x-4 bg-youtubeGray p-2 ml-20 mt-20">
 
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-sm font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-sm font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
    
     <span>All</span>
@@ -39,7 +39,7 @@ function Videos() {
 
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
    
     <span>Music</span>
@@ -47,7 +47,7 @@ function Videos() {
 
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
    
     <span>Web Series</span>
@@ -56,91 +56,91 @@ function Videos() {
 
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
   
     <span>Drama</span>
   </button>
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
   
     <span>Mr Bean</span>
   </button>
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
   
     <span>Shin Chan</span>
   </button>
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
   
     <span>Mixes</span>
   </button>
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
   
     <span>Data Type</span>
   </button>
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
   
     <span>Cleaning</span>
   </button>
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
   
     <span>Food</span>
   </button>
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
   
     <span>Movies</span>
   </button>
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
   
     <span>Colony</span>
   </button>
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
   
     <span>Dance</span>
   </button>
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
   
     <span>Cycling</span>
   </button>
   <button
     type="button"
-    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+    className="inline-flex items-center gap-x-2 rounded-md bg-youtubeGray1 px-2 py-1 text-md font-semibold text-white hover:bg-gray-400 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
   >
   
     <span>Travelling</span>
   </button>
 </div>
 
- <div className="bg-black p-4">
+ <div className="bg-youtubeGray p-4">
       
       {loading ? ( 
         <div className="flex items-center justify-center w-full h-[100vh] text-gray-900 dark:text-gray-100 dark:bg-gray-950">

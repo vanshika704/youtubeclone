@@ -34,7 +34,7 @@ function Navbar() {
 
         <button
           type="button"
-          className="flex items-center justify-center w-16 h-8 bg-youtubeGray border-gray-200 rounded-r-full hover:bg-gray-600 mr-4 sm:mr-8 md:mr-16 lg:mr-56"
+          className="flex items-center justify-center w-16 h-8 bg-youtubeGray1 border-gray-200 rounded-r-full hover:bg-gray-600 mr-4 sm:mr-8 md:mr-16 lg:mr-56"
         >
           <IoSearch className="w-6 h-6 text-white" />
         </button>
