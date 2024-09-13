@@ -10,9 +10,9 @@ import Navbar from "../components/navbar";
   }
 
   return (
-    <div className="flex  h-screen bg-black">
+    <div className="flex  h-screen bg-youtubeGray">
         <Navbar/>
-      <div className="max-w-3xl ml-0">
+      <div className="max-w-3xl ml-20 mt-20">
         <video className="w-full h-auto" controls>
           <source src={video.videos.tiny.url} type="video/mp4" />
           Your browser does not support the video tag.
