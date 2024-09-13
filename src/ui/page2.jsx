@@ -35,7 +35,7 @@ export function VideoDetail() {
       <Navbar />
       <div className="flex w-full">
         {/* Main video section */}
-        <div className="flex-1 max-w-3xl ml-20 mt-20">
+        <div className="flex-1 max-w-4xl ml-20 mt-20">
           <video className="w-full h-auto" controls>
             <source src={video.videos.tiny.url} type="video/mp4" />
             Your browser does not support the video tag.
@@ -59,7 +59,7 @@ export function VideoDetail() {
                   state={{ video: vid }} // Pass the video data to the new page
                   className="block rounded-lg overflow-hidden"
                 >
-                  <video className="w-full h-24 object-cover" controls>
+                  <video className="w-full h-52 mr-0 object-cover" controls>
                     <source src={vid.videos.tiny.url} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
