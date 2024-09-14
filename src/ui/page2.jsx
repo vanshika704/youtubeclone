@@ -48,7 +48,7 @@ export function VideoDetail() {
         </div>
 
         {/* Videos list on the right side */}
-        <div className="w-1/4 ml-10 mt-20">
+        <div className="w-60 ml-32 mt-20">
           <div className="h-full w-80 p-5 overflow-y-auto max-h-screen bg-youtubeGray rounded-lg">
             {loading ? (
               <p className="text-white">Loading videos...</p>
